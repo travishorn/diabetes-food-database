@@ -34,9 +34,7 @@
     "axios": "^0.18.0",
     "netlify-lambda": "^1.1.0",
     "pluralize": "^7.0.0",
-    "vue": "^2.5.18"
-  },
-  "devDependencies": {
+    "vue": "^2.5.18",
     "@vue/cli-service": "^3.2.0",
     "vue-template-compiler": "^2.5.18"
   },
