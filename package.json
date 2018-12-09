@@ -1,0 +1,33 @@
+{
+  "name": "diabetes-food-database",
+  "version": "1.0.0",
+  "description": "Food information for diabetics.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:lambda": "netlify-lambda serve src/lambda",
+    "build:lambda": "netlify-lambda build src/lambda"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/travishorn/diabetes-food-database.git"
+  },
+  "keywords": [
+    "diabetes",
+    "food",
+    "database",
+    "data",
+    "information",
+    "food safety",
+    "medical"
+  ],
+  "author": "Travis Horn (https://travishorn.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/travishorn/diabetes-food-database/issues"
+  },
+  "homepage": "https://github.com/travishorn/diabetes-food-database#readme",
+  "dependencies": {
+    "netlify-lambda": "^1.1.0"
+  }
+}

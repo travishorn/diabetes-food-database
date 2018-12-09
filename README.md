@@ -1,2 +1,3 @@
-# diabetes-food-database
-Food information for diabetics
+# Diabetes Food Database
+
+Food information for diabetics.
