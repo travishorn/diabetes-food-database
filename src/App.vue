@@ -50,8 +50,17 @@ export default {
 </script>
 
 <style>
+  html {
+    font-size: 22px;
+  }
+
   .container {
     max-width: 600px;
     margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  p {
+    margin: 0 0 1rem 0;
   }
 </style>

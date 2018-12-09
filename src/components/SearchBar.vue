@@ -1,6 +1,6 @@
 <template>
   <form @submit.prevent="search">
-    <input type="text" v-model="q">
+    <input type="text" v-model="q" autofocus>
   </form>
 </template>
 
