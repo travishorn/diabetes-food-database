@@ -14,7 +14,7 @@ module.exports = {
   },
   methods: {
     search() {
-      console.log(`Search for ${this.q}`);
+      this.$emit('search', this.q);
     },
   },
 }
