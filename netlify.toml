@@ -1,3 +1,4 @@
 [build]
   Functions = "lambda"
-  Command = "npm run build:lambda"
+  Command = "npm run build:lambda && npm run build:vue"
+  Publish = "dist"
