@@ -5,7 +5,7 @@
 </template>
 
 <script>
-module.exports = {
+export default {
   name: 'SearchBar',
   data() {
     return {
@@ -17,7 +17,7 @@ module.exports = {
       this.$emit('search', this.q);
     },
   },
-}
+};
 </script>
 
 <style scoped>

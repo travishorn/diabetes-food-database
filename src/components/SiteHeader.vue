@@ -3,9 +3,9 @@
 </template>
 
 <script>
-module.exports = {
+export default {
   name: 'SiteHeader',
-}
+};
 </script>
 
 <style scoped>

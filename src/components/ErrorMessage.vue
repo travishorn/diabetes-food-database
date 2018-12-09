@@ -3,10 +3,10 @@
 </template>
 
 <script>
-module.exports = {
+export default {
   name: 'ErrorMessage',
   props: ['error'],
-}
+};
 </script>
 
 <style scoped>

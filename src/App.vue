@@ -46,7 +46,7 @@ export default {
     ErrorMessage,
     ResultsListing,
   },
-}
+};
 </script>
 
 <style>
