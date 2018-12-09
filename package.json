@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/travishorn/diabetes-food-database#readme",
   "dependencies": {
-    "netlify-lambda": "^1.1.0"
+    "netlify-lambda": "^1.1.0",
+    "pluralize": "^7.0.0"
   }
 }
