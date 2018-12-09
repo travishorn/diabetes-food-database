@@ -1,6 +1,6 @@
 {
   "name": "diabetes-food-database",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Food information for people with diabetes.",
   "main": "index.js",
   "scripts": {
