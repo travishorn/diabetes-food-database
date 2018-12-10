@@ -5,8 +5,26 @@ https://dfdb.netlify.com/ and search for a food item.
 
 ## Contributing
 
-The infrastructure for this app is there, but the database itself is extremely lacking. **Pull requests
-are welcome!** Please look at modifying `src/database.json`.
+The infrastructure for this app is there, but the database itself is extremely lacking. **Pull
+requests are welcome!** Please look at modifying `src/database.json`.
+
+When adding a new food, please include the following properties:
+
+- **name** - The name of the food. Will be used for searching. Must be unique, singular (smoothie
+instead smoothies) and all lowercase (carrot instead of Carrot).
+- **displayName** - A prettier name of the food. If the name is sugar, the displayName might be
+Sugar (with capitalization).
+- **level** - A number from 1 to 5.
+  - 1 = Avoid - Diabetic people should stay away from this food.
+  - 2 = Caution - This food can be eaten in moderation or under certain conditions.
+  - 3 = Okay - Neutral. No significant positive or negative health effects.
+  - 4 = Good - Food that is good for a diabetic person to eat.
+  - 5 = Great - Foods at this level are among the healthiest options.
+- **explanation** - A reason why this food is or is not healthy.
+- **suggestions** - Actions to take regarding this food. Alternatives to this food if it is
+unhealthy.
+- **ingredients** - An array of items that make up this food. Items in this array must match the
+name of another food in the database.
 
 ### Running the application locally for development
 
