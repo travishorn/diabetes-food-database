@@ -47,9 +47,10 @@ The user interface will be available at http://localhost:8080/
 
 ## Built with
 
-- [Axios](https://github.com/axios/axios) - Querying the database from the client.
+- [Axios](https://github.com/axios/axios) - Querying the database from the client
+- [Fuse](http://fusejs.io/) - Fuzzy text search
 - [Icons8](https://icons8.com) - Icon/favico
-- [Netlify](https://netlify.com) - Hosting the client and the database API.
+- [Netlify](https://netlify.com) - Hosting the client and the database API
 - [Pluralize](https://github.com/blakeembrey/pluralize) - Helping normalize search queries
 - [Vue](https://vuejs.org) - User interface
 
