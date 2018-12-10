@@ -2,24 +2,23 @@
   <div class="foodItem" @click="expand">
     <h2 @click="toggleExpanded">{{ food.displayName }}</h2>
 
-    <table>
-      <tbody>
-        <tr>
-          <td style="background-color:#FF3A3A">Avoid</td>
-          <td style="background-color:#FF7C7C">Caution</td>
-          <td style="background-color:#CBD370">Okay</td>
-          <td style="background-color:#A7FF7F">Good</td>
-          <td style="background-color:#63C130">Great</td>
-        </tr>
-        <tr>
-          <td><img alt="Avoid" src="/images/arrow-up.png" v-if="food.level === 1"></td>
-          <td><img alt="Caution" src="/images/arrow-up.png" v-if="food.level === 2"></td>
-          <td><img alt="Okay" src="/images/arrow-up.png" v-if="food.level === 3"></td>
-          <td><img alt="Good" src="/images/arrow-up.png" v-if="food.level === 4"></td>
-          <td><img alt="Great" src="/images/arrow-up.png" v-if="food.level === 5"></td>
-        </tr>
-      </tbody>
-    </table>
+    <svg viewBox="0 0 500 40">
+      <defs>
+        <linearGradient id="redGreen">
+          <stop offset="20%" stop-color="#cf597e" />
+          <stop offset="35%" stop-color="#eeb479" />
+          <stop offset="50%" stop-color="#e9e29c" />
+          <stop offset="65%" stop-color="#9ccb86" />
+          <stop offset="80%" stop-color="#009392" />
+        </linearGradient>
+      </defs>
+
+      <rect width="500" height="10" rx="3" ry="3" fill="url(#redGreen)" />
+      <g :transform="indicatorTranslation">
+        <path d="M 5 0 L 10 10 L 0 10 Z" />
+        <text x="5" y="23" text-anchor="middle">{{ indicatorText }}</text>
+      </g>
+    </svg>
 
     <div v-if="expanded">
       <h3>Explanation</h3>
@@ -38,6 +37,16 @@ export default {
     return {
       expanded: false,
     };
+  },
+  computed: {
+    indicatorTranslation() {
+      const x = (this.food.level - 1) * 50 + 50;
+      return `translate(${x} 10)`;
+    },
+    indicatorText() {
+      const levels = ['Avoid', 'Caution', 'Okay', 'Good', 'Great'];
+      return levels[this.food.level - 1];
+    },
   },
   methods: {
     expand() {
@@ -59,6 +68,10 @@ export default {
     cursor: pointer;
   }
 
+  svg text {
+    font-size: 0.6rem;
+  }
+
   p {
     cursor: text;
   }
@@ -71,15 +84,5 @@ export default {
   h3 {
     font-size: 0.8rem;
     margin: 0;
-  }
-
-  table {
-    width: 100%;
-  }
-
-  td {
-    width: 20%;
-    font-size: 0.6rem;
-    text-align: center;
   }
 </style>
