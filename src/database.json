@@ -41,7 +41,7 @@
       "displayName": "Battered Fish",
       "alternateNames": ["deep fried fish", "long john silvers", "captain ds"],
       "level": 1,
-      "explanation": "Battered fish is high in calories, carbs, and fat. It has too much starch.",
+      "explanation": "Battered fish is high in calories, carbohydrates, and fat. It has too much starch.",
       "suggestions": "",
       "ingredients": []
     },
@@ -77,7 +77,7 @@
       "displayName": "Chinese Food",
       "alternateNames": ["orange chicken", "white rice"],
       "level": 2,
-      "explanation": "Many Chinese dishes are deep-fried and contain rice. These are high in calories and carbs.",
+      "explanation": "Many Chinese dishes are deep-fried and contain rice. These are high in calories and carbohydrates.",
       "suggestions": "Avoid deep-fried entrees and rice. Dishes with no breading and a high vegetable proportion are okay.",
       "ingredients": []
     },
@@ -86,7 +86,7 @@
       "displayName": "Corn",
       "alternateNames": ["corn on the cob"],
       "level": 1,
-      "explanation": "While corn is a vegetable, it is very starchy and high in carbs.",
+      "explanation": "While corn is a vegetable, it is very starchy and high in carbohydrates.",
       "suggestions": "Try other vegetables besides corn and potatoes.",
       "ingredients": []
     },
@@ -104,7 +104,7 @@
       "displayName": "Fried Chicken",
       "alternateNames": ["kfc", "popeye", "church"],
       "level": 1,
-      "explanation": "Fried chicken is high in calories, carbs, and fat.",
+      "explanation": "Fried chicken is high in calories, carbohydrates, and fat.",
       "suggestions": "Try grilled chicken instead of fried.",
       "ingredients": []
     },
@@ -176,7 +176,7 @@
       "displayName": "Pizza",
       "alternateNames": ["frozen pizza", "delivery pizza"],
       "level": 1,
-      "explanation": "Pizza is often high in calories, carbs, fat, and sodium.",
+      "explanation": "Pizza is often high in calories, carbohydrates, fat, and sodium.",
       "suggestions": "If you must eat pizza, opt for vegetable toppings. Pay close attention to the nutritional content and the serving size.",
       "ingredients": []
     },
@@ -185,7 +185,7 @@
       "displayName": "Potatoes",
       "alternateNames": [],
       "level": 1,
-      "explanation": "Potatoes are high in carbs.",
+      "explanation": "Potatoes are high in carbohydrates.",
       "suggestions": "Try other vegetables besides potatoes and corn.",
       "ingredients": []
     },
@@ -194,7 +194,7 @@
       "displayName": "Processed Grains",
       "alternateNames": ["white rice", "white flour", "white bread"],
       "level": 1,
-      "explanation": "Processed grains are high in carbs.",
+      "explanation": "Processed grains are high in carbohydrates.",
       "suggestions": "Some items that are typically made with processed grains can be made healthier by using rolled oats, cornmeal, whole grain, or wheat flour.",
       "ingredients": []
     },
@@ -268,6 +268,15 @@
       "level": 4,
       "explanation": "",
       "suggestions": "Grilled is much healthier than frying chicken.",
+      "ingredients": []
+    },
+    {
+      "name": "sushi",
+      "displayName": "Sushi",
+      "alternateNames": ["sashimi", "california roll"],
+      "level": 2,
+      "explanation": "Most sushi dishes contain a lot of short-grain sticky white rice, which is very high in carbohydrates and should be avoided.",
+      "suggestions": "Try rolls made with quinoa, brown rice, lean proteins like fish, and healthy fats like avocado. Avoid deep-fried rolls. Opt for low-sodium soy sauce and watch out for added sugar.",
       "ingredients": []
     }
   ]

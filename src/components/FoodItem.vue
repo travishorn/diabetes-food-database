@@ -66,6 +66,11 @@ export default {
 
 <style scoped>
   .card { cursor: pointer; }
+
   .card p,
   .card h3 { cursor: text; }
+
+  .card-body {
+    padding: 0.5rem 1rem 0.25rem 1rem;
+  }
 </style>
