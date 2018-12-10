@@ -21,9 +21,11 @@
         </g>
       </svg>
 
-      <div v-if="expanded">
+      <div v-if="expanded && food.explanation">
         <h3>Explanation</h3>
         <p>{{ food.explanation }}</p>
+      </div>
+      <div v-if="expanded && food.suggestions">
         <h3>Suggestions</h3>
         <p>{{ food.suggestions }}</p>
       </div>
@@ -42,7 +44,7 @@ export default {
   },
   computed: {
     indicatorTranslation() {
-      const x = (this.food.level - 1) * 50 + 50;
+      const x = (this.food.level - 1) * 100 + 50;
       return `translate(${x} 10)`;
     },
     indicatorText() {
