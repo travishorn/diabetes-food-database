@@ -4,7 +4,7 @@ const { foods } = require('../database.json');
 
 const fuse = new Fuse(foods, {
   keys: ['name', 'alternateNames'],
-  threshold: 0.5,
+  threshold: 0.4,
 });
 
 exports.handler = (event, context, callback) => {

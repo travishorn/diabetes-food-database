@@ -102,7 +102,7 @@
     {
       "name": "fried chicken",
       "displayName": "Fried Chicken",
-      "alternateNames": ["kfc", "popeye", "church"],
+      "alternateNames": ["chicken", "kfc", "popeye", "church"],
       "level": 1,
       "explanation": "Fried chicken is high in calories, carbohydrates, and fat.",
       "suggestions": "Try grilled chicken instead of fried.",
@@ -264,7 +264,7 @@
     {
       "name": "grilled chicken",
       "displayName": "Grilled Chicken",
-      "alternateNames": [],
+      "alternateNames": ["chicken"],
       "level": 4,
       "explanation": "",
       "suggestions": "Grilled is much healthier than frying chicken.",
