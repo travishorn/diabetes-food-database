@@ -3,7 +3,7 @@
     <div v-if="results.length > 0">
       <FoodItem v-for="food in results" :key="food.name" :food="food" />
     </div>
-    <p v-else>No results found.</p>
+    <p class="mt-3" v-else>No results found.</p>
   </div>
 </template>
 
@@ -20,5 +20,7 @@ export default {
 </script>
 
 <style scoped>
-
+  .mt-3 {
+    margin-top: 1rem;
+  }
 </style>

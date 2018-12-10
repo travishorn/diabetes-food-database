@@ -1,6 +1,6 @@
 <template>
-  <div class="foodItem" @click="toggleExpanded">
-    <h2>{{ food.displayName }}</h2>
+  <div class="foodItem" @click="expand">
+    <h2 @click="toggleExpanded">{{ food.displayName }}</h2>
 
     <table>
       <tbody>
@@ -22,7 +22,9 @@
     </table>
 
     <div v-if="expanded">
+      <h3>Explanation</h3>
       <p>{{ food.explanation }}</p>
+      <h3>Suggestions</h3>
       <p>{{ food.suggestions }}</p>
     </div>
   </div>
@@ -38,8 +40,12 @@ export default {
     };
   },
   methods: {
-    toggleExpanded() {
+    expand() {
+      this.expanded = true;
+    },
+    toggleExpanded(e) {
       this.expanded = !this.expanded;
+      e.stopPropagation();
     },
   },
 };
@@ -53,9 +59,18 @@ export default {
     cursor: pointer;
   }
 
+  p {
+    cursor: text;
+  }
+
   h2 {
     margin: 0 0 0.5rem 0;
     font-size: 1rem;
+  }
+
+  h3 {
+    font-size: 0.8rem;
+    margin: 0;
   }
 
   table {
