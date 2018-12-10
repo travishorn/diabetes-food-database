@@ -1,6 +1,7 @@
 <template>
   <form @submit.prevent="search">
-    <input type="text" v-model="q" placeholder="Search for a food or ingredient" autofocus>
+    <label for="search" aria-hidden="false">Search for a food or ingredient</label>
+    <input id="search" type="text" v-model="q" placeholder="Search for a food or ingredient" autofocus>
   </form>
 </template>
 
@@ -21,6 +22,10 @@ export default {
 </script>
 
 <style scoped>
+  label {
+    display: none;
+  }
+
   input[type=text] {
     width: 100%;
     padding: 0.25rem 0.5rem;
