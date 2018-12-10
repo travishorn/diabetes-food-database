@@ -62,3 +62,6 @@ typings/
 
 # Netlify lambda functions
 /lambda
+
+# Built files
+dist/

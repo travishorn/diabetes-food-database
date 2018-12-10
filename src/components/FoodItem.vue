@@ -1,30 +1,32 @@
 <template>
-  <div class="foodItem" @click="expand">
-    <h2 @click="toggleExpanded">{{ food.displayName }}</h2>
+  <div class="card" @click="expand">
+    <div class="card-body">
+      <h2 @click="toggleExpanded">{{ food.displayName }}</h2>
 
-    <svg viewBox="0 0 500 40">
-      <defs>
-        <linearGradient id="redGreen">
-          <stop offset="20%" stop-color="#cf597e" />
-          <stop offset="35%" stop-color="#eeb479" />
-          <stop offset="50%" stop-color="#e9e29c" />
-          <stop offset="65%" stop-color="#9ccb86" />
-          <stop offset="80%" stop-color="#009392" />
-        </linearGradient>
-      </defs>
+      <svg viewBox="0 0 500 40">
+        <defs>
+          <linearGradient id="redGreen">
+            <stop offset="20%" stop-color="#cf597e" />
+            <stop offset="35%" stop-color="#eeb479" />
+            <stop offset="50%" stop-color="#e9e29c" />
+            <stop offset="65%" stop-color="#9ccb86" />
+            <stop offset="80%" stop-color="#009392" />
+          </linearGradient>
+        </defs>
 
-      <rect width="500" height="10" rx="3" ry="3" fill="url(#redGreen)" />
-      <g :transform="indicatorTranslation">
-        <path d="M 5 0 L 10 10 L 0 10 Z" />
-        <text x="5" y="23" text-anchor="middle">{{ indicatorText }}</text>
-      </g>
-    </svg>
+        <rect width="500" height="10" rx="3" ry="3" fill="url(#redGreen)" />
+        <g :transform="indicatorTranslation">
+          <path d="M 5 0 L 10 10 L 0 10 Z" />
+          <text x="5" y="25" text-anchor="middle">{{ indicatorText }}</text>
+        </g>
+      </svg>
 
-    <div v-if="expanded">
-      <h3>Explanation</h3>
-      <p>{{ food.explanation }}</p>
-      <h3>Suggestions</h3>
-      <p>{{ food.suggestions }}</p>
+      <div v-if="expanded">
+        <h3>Explanation</h3>
+        <p>{{ food.explanation }}</p>
+        <h3>Suggestions</h3>
+        <p>{{ food.suggestions }}</p>
+      </div>
     </div>
   </div>
 </template>
@@ -61,28 +63,7 @@ export default {
 </script>
 
 <style scoped>
-  .foodItem {
-    box-shadow: 1px 1px 1px gray;
-    margin: 1rem 0;
-    padding: 0.25rem;
-    cursor: pointer;
-  }
-
-  svg text {
-    font-size: 0.6rem;
-  }
-
-  p {
-    cursor: text;
-  }
-
-  h2 {
-    margin: 0 0 0.5rem 0;
-    font-size: 1rem;
-  }
-
-  h3 {
-    font-size: 0.8rem;
-    margin: 0;
-  }
+  .card { cursor: pointer; }
+  .card p,
+  .card h3 { cursor: text; }
 </style>

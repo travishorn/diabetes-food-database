@@ -1,7 +1,9 @@
 <template>
   <form @submit.prevent="search">
-    <label for="search" aria-hidden="false">Search for a food or ingredient</label>
-    <input id="search" type="text" v-model="q" placeholder="Search for a food or ingredient" autofocus>
+    <div class="form-group">
+      <label for="search" class="bmd-label-floating">Search for a food or ingredient</label>
+      <input id="search" class="form-control" type="text" v-model="q" autofocus>
+    </div>
   </form>
 </template>
 
@@ -22,12 +24,5 @@ export default {
 </script>
 
 <style scoped>
-  label {
-    display: none;
-  }
 
-  input[type=text] {
-    width: 100%;
-    padding: 0.25rem 0.5rem;
-  }
 </style>

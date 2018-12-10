@@ -1,5 +1,5 @@
 <template>
-  <p>{{ error }}</p>
+  <div class="alert alert-danger">{{ error }}</div>
 </template>
 
 <script>
@@ -10,7 +10,5 @@ export default {
 </script>
 
 <style scoped>
-  p {
-    color: red;
-  }
+
 </style>

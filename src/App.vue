@@ -1,15 +1,17 @@
 <template>
-  <div class="container">
-    <SiteHeader />
-    <SearchBar @search="search" />
-    <ErrorMessage :error="error" v-if="error" />
-    <ResultsListing :results="results" v-if="resultsReady" />
+  <div class="container mt-md-4">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <SearchBar @search="search" />
+        <ErrorMessage :error="error" v-if="error" />
+        <ResultsListing :results="results" v-if="resultsReady" />
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
 import axios from 'axios';
-import SiteHeader from './components/SiteHeader.vue';
 import SearchBar from './components/SearchBar.vue';
 import ErrorMessage from './components/ErrorMessage.vue';
 import ResultsListing from './components/ResultsListing.vue';
@@ -41,7 +43,6 @@ export default {
     },
   },
   components: {
-    SiteHeader,
     SearchBar,
     ErrorMessage,
     ResultsListing,
@@ -50,17 +51,5 @@ export default {
 </script>
 
 <style>
-  html {
-    font-size: 22px;
-  }
 
-  .container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 0 1rem;
-  }
-
-  p {
-    margin: 0 0 1rem 0;
-  }
 </style>
