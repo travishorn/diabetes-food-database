@@ -75,7 +75,7 @@
     {
       "name": "chinese",
       "displayName": "Chinese Food",
-      "alternateNames": ["orange chicken", "white rice"],
+      "alternateNames": ["orange chicken", "white rice", "delivery chinese"],
       "level": 2,
       "explanation": "Many Chinese dishes are deep-fried and contain rice. These are high in calories and carbohydrates.",
       "suggestions": "Avoid deep-fried entrees and rice. Dishes with no breading and a high vegetable proportion are okay.",
@@ -156,7 +156,7 @@
     {
       "name": "milkshake",
       "displayName": "Milkshake",
-      "alternateNames": ["shae", "malt"],
+      "alternateNames": ["shake", "malt", "milk shake"],
       "level": 1,
       "explanation": "Milkshakes are high in calories, trans fat, and sugar.",
       "suggestions": "",
