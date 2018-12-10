@@ -2,7 +2,7 @@
   "name": "diabetes-food-database",
   "version": "4.1.1",
   "description": "Food information for people with diabetes.",
-  "main": "index.js",
+  "main": "src/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:lambda": "netlify-lambda serve src/lambda",
