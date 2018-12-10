@@ -1,10 +1,15 @@
 const { singular } = require('pluralize');
+const Fuse = require('fuse.js');
 const { foods } = require('../database.json');
 
-exports.handler = (event, context, callback) => {
-  const q = singular(event.queryStringParameters.q.toLowerCase());
+const fuse = new Fuse(foods, {
+  keys: ['name'],
+});
 
-  const matches = foods.filter(food => food.name === q);
+exports.handler = (event, context, callback) => {
+  const q = singular(event.queryStringParameters.q);
+
+  const matches = fuse.search(q);
 
   const results = {
     query: event.queryStringParameters.q,
