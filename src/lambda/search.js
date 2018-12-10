@@ -3,7 +3,7 @@ const Fuse = require('fuse.js');
 const { foods } = require('../database.json');
 
 const fuse = new Fuse(foods, {
-  keys: ['name'],
+  keys: ['name', 'alternateNames'],
 });
 
 exports.handler = (event, context, callback) => {

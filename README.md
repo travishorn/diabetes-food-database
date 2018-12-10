@@ -14,6 +14,7 @@ When adding a new food, please include the following properties:
 instead smoothies) and all lowercase (carrot instead of Carrot).
 - **displayName** - A prettier name of the food. If the name is sugar, the displayName might be
 Sugar (with capitalization).
+- **alternateNames** - An array of names people might also use when searching for this food.
 - **level** - A number from 1 to 5.
   - 1 = Avoid - Diabetic people should stay away from this food.
   - 2 = Caution - This food can be eaten in moderation or under certain conditions.
