@@ -37,7 +37,8 @@
     "netlify-lambda": "^1.1.0",
     "pluralize": "^7.0.0",
     "vue": "^2.5.18",
-    "vue-template-compiler": "^2.5.18"
+    "vue-template-compiler": "^2.5.18",
+    "webpack-auto-inject-version": "^1.2.2"
   },
   "postcss": {}
 }

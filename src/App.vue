@@ -5,6 +5,7 @@
         <SearchBar @search="search" />
         <ErrorMessage :error="error" v-if="error" />
         <ResultsListing :results="results" v-if="resultsReady" />
+        <VersionNumber />
       </div>
     </div>
   </div>
@@ -15,6 +16,7 @@ import axios from 'axios';
 import SearchBar from './components/SearchBar.vue';
 import ErrorMessage from './components/ErrorMessage.vue';
 import ResultsListing from './components/ResultsListing.vue';
+import VersionNumber from './components/VersionNumber.vue';
 
 const baseUrl = process.env.NODE_ENV === 'production' ? 'https://dfdb.netlify.com/.netlify/functions' : 'http://localhost:9000';
 
@@ -46,6 +48,7 @@ export default {
     SearchBar,
     ErrorMessage,
     ResultsListing,
+    VersionNumber,
   },
 };
 </script>
