@@ -55,6 +55,7 @@ The user interface will be available at http://localhost:8080/
 - [Netlify](https://netlify.com) - Hosting the client and the database API
 - [Pluralize](https://github.com/blakeembrey/pluralize) - Helping normalize search queries
 - [Vue](https://vuejs.org) - User interface
+- [webpack-auto-inject-version]() - Place version at bottom of client
 
 ## License
 
