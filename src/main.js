@@ -1,9 +1,12 @@
 import Vue from 'vue';
 import App from './App.vue';
 
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js');
-}
+navigator.serviceWorker.getRegistrations()
+  .then((registrations) => {
+    registrations.forEach((registration) => {
+      registration.unregister();
+    });
+  });
 
 new Vue({
   render: h => h(App),
