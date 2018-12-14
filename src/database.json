@@ -174,7 +174,7 @@
     {
       "name": "Pizza",
       "displayName": "Pizza",
-      "alternateNames": ["frozen pizza", "delivery pizza"],
+      "alternateNames": ["frozen pizza", "delivery pizza", "pizza hut", "dominos", "papa johns"],
       "level": 1,
       "explanation": "Pizza is often high in calories, carbohydrates, fat, and sodium.",
       "suggestions": "If you must eat pizza, opt for vegetable toppings. Pay close attention to the nutritional content and the serving size.",
@@ -277,6 +277,141 @@
       "level": 2,
       "explanation": "Most sushi dishes contain a lot of short-grain sticky white rice, which is very high in carbohydrates and should be avoided.",
       "suggestions": "Try rolls made with quinoa, brown rice, lean proteins like fish, and healthy fats like avocado. Avoid deep-fried rolls. Opt for low-sodium soy sauce and watch out for added sugar.",
+      "ingredients": []
+    },
+    {
+      "name": "taco bell",
+      "displayName": "Taco Bell",
+      "alternateNames": ["fast food", "mexican", "taco", "burrito", "quesadilla"],
+      "level": 1,
+      "explanation": "Fast food restaurants very rarely offer healthy options. However, some are better than others.",
+      "suggestions": "Opt for a black bean burrito, soft chicken tacos, or a fresco grilled steak soft taco.",
+      "ingredients": []
+    },
+    {
+      "name": "wendy",
+      "displayName": "Wendy's",
+      "alternateNames": ["fast food", "burger"],
+      "level": 1,
+      "explanation": "Fast food restaurants very rarely offer healthy options. However, some are better than others.",
+      "suggestions": "Try a grilled chicken sandwich, power mediterranian chicken salad, or apple pecan chicken salad.",
+      "ingredients": []
+    },
+    {
+      "name": "burger king",
+      "displayName": "Burger King",
+      "alternateNames": ["fast food", "burger"],
+      "level": 1,
+      "explanation": "Fast food restaurants very rarely offer healthy options. However, some are better than others.",
+      "suggestions": "A basic burger with no mayonnaise or a salad are better options.",
+      "ingredients": []
+    },
+    {
+      "name": "subway",
+      "displayName": "Subway",
+      "alternateNames": ["fast food", "sandwich"],
+      "level": 1,
+      "explanation": "Fast food restaurants very rarely offer healthy options. However, some are better than others.",
+      "suggestions": "Opt for a 6 inch sandwich on honey oat or 9 grain bread, veggie delight, oven roasted/rotisserie chicken, or roast beef.",
+      "ingredients": []
+    },
+    {
+      "name": "arby",
+      "displayName": "Arby's",
+      "alternateNames": ["fast food", "roast beef"],
+      "level": 1,
+      "explanation": "Fast food restaurants very rarely offer healthy options. However, some are better than others.",
+      "suggestions": "Try a classic roast beef or turkey gyro pita wrap.",
+      "ingredients": []
+    },
+    {
+      "name": "mcdonald",
+      "displayName": "McDonald's",
+      "alternateNames": ["fast food", "burger"],
+      "level": 1,
+      "explanation": "Fast food restaurants very rarely offer healthy options. However, some are better than others.",
+      "suggestions": "A basic burger, side salad with baslamic dressing, apple slices, and unsweetened tea are some healtheir options.",
+      "ingredients": []
+    },
+    {
+      "name": "kfc",
+      "displayName": "KFC",
+      "alternateNames": ["fast food", "chicken", "kentucky", "fried"],
+      "level": 1,
+      "explanation": "Fast food restaurants very rarely offer healthy options. However, some are better than others.",
+      "suggestions": "Opt for grilled or baked chicken and sweet kernel corn over other options.",
+      "ingredients": []
+    },
+    {
+      "name": "chipotle",
+      "displayName": "Chipotle",
+      "alternateNames": ["fast food", "mexican", "taco", "burrito"],
+      "level": 1,
+      "explanation": "Fast food restaurants very rarely offer healthy options. However, some are better than others.",
+      "suggestions": "Try a vegetarian or chicken bowl, crispy tacos with chicken, or brown rice.",
+      "ingredients": []
+    },
+    {
+      "name": "chick fil a",
+      "displayName": "Chick-fil-A",
+      "alternateNames": ["fast food", "chicken"],
+      "level": 1,
+      "explanation": "Fast food restaurants very rarely offer healthy options. However, some are better than others.",
+      "suggestions": "A grilled chicken sandwich, small fruit cup, and unsweetened iced tea are healtheir options.",
+      "ingredients": []
+    },
+    {
+      "name": "jimmy john",
+      "displayName": "Jimmy John's",
+      "alternateNames": ["fast food", "sandwich"],
+      "level": 1,
+      "explanation": "Fast food restaurants very rarely offer healthy options. However, some are better than others.",
+      "suggestions": "Try the #1, Pepe un-wich style with no mayonnaise and thinny chips.",
+      "ingredients": []
+    },
+    {
+      "name": "panera",
+      "displayName": "Panera Bread Co.",
+      "alternateNames": ["fast food", "bread", "soup", "bagel", "sandwich", "st. louis", "saint"],
+      "level": 1,
+      "explanation": "Fast food restaurants very rarely offer healthy options. However, some are better than others.",
+      "suggestions": "Opt for a you pick two with half-smoked turkey breast on honey wheat loaf with low-fat garden vegetable with pesto soup, and acai berry iced green tea.",
+      "ingredients": []
+    },
+    {
+      "name": "popeye",
+      "displayName": "Popeye's",
+      "alternateNames": ["fast food", "chicken", "fried"],
+      "level": 1,
+      "explanation": "Fast food restaurants very rarely offer healthy options. However, some are better than others.",
+      "suggestions": "The six-piece chicken tenders, regular green beans, and applesauce are healthier options.",
+      "ingredients": []
+    },
+    {
+      "name": "qdoba",
+      "displayName": "Qdoba",
+      "alternateNames": ["fast food", "mexican", "taco", "burrito"],
+      "level": 1,
+      "explanation": "Fast food restaurants very rarely offer healthy options. However, some are better than others.",
+      "suggestions": "Try a naked burrito, pulled pork, pinto beans, lettuce, fajita vegetables, and mango salsa.",
+      "ingredients": []
+    },
+    {
+      "name": "starbuck",
+      "displayName": "Starbucks",
+      "alternateNames": ["fast food", "coffee"],
+      "level": 1,
+      "explanation": "Fast food restaurants very rarely offer healthy options. However, some are better than others.",
+      "suggestions": "Opt for a spinach and feta breakfast wrap. Black coffee is healthier than all of the sugary drinks they offer.",
+      "ingredients": []
+    },
+    {
+      "name": "panda express",
+      "displayName": "Panda Express",
+      "alternateNames": ["fast food", "chinese"],
+      "level": 1,
+      "explanation": "Fast food restaurants very rarely offer healthy options. However, some are better than others.",
+      "suggestions": "Broccoli beef (no rice) and veggie spring rolls are healthier options.",
       "ingredients": []
     }
   ]
