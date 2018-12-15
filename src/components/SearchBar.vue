@@ -28,7 +28,8 @@ export default {
     color: #555;
   }
 
-  .form-control {
-    font-size: 2rem;
+  .form-control,
+  ::placeholder {
+    font-size: 3rem;
   }
 </style>
