@@ -10,6 +10,15 @@
       "ingredients": []
     },
     {
+      "name": "sport drinks",
+      "displayName": "Sport drinks",
+      "alternateNames": ["gatorade"],
+      "level": 1,
+      "explanation": "Sports drinks like Gatorade may be helpful for highly active, healthy people, but people with diabetes should steer clear—even if they hit the gym on the reg. They can be an unnecessary source of calories, added sugars, and sodium, which are all things people with diabetes should avoid.",
+      "suggestions": "Stay hydrated during your workout with cold H2O—it really is your best bet.",
+      "ingredients": ["sugar"]
+    },
+    {
       "name": "nacho",
       "displayName": "Nachos",
       "alternateNames": [],
