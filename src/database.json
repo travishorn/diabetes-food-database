@@ -422,6 +422,15 @@
       "explanation": "Fast food restaurants very rarely offer healthy options. However, some are better than others.",
       "suggestions": "Broccoli beef (no rice) and veggie spring rolls are healthier options.",
       "ingredients": []
+    },
+    {
+      "name": "lentil",
+      "displayName": "Lentil",
+      "alternateNames": ["lentil soup", "lentils"],
+      "level":4,
+      "explanation":"Lentils are a high-protein, high-fiber member of the legume famiy. An excellent natural source of folate and manganese.",
+      "suggestions":"",
+      "ingredients":[]
     }
   ]
 }
