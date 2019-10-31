@@ -423,6 +423,15 @@
       "suggestions": "Broccoli beef (no rice) and veggie spring rolls are healthier options.",
       "ingredients": []
     },
+     {
+      "name": "carrots",
+      "displayName": "Carrots",
+      "alternateNames": ["vegetable", "healthy"],
+      "level": 1,
+      "explanation": "Carrots are full of water and vitamins are a very healthy options.They help with eyes and stomach issues.",
+      "suggestions": "Apples and Carrots mix or soups with carrots in are very healthy.",
+      "ingredients": []
+    },
     {
       "name": "lentil",
       "displayName": "Lentil",
