@@ -20,7 +20,7 @@ import ErrorMessage from './components/ErrorMessage.vue';
 import ResultsListing from './components/ResultsListing.vue';
 import VersionNumber from './components/VersionNumber.vue';
 
-const baseUrl = process.env.NODE_ENV === 'production' ? 'https://dfdb.netlify.com/.netlify/functions' : 'http://localhost:9000';
+const baseUrl = process.env.NODE_ENV === 'production' ? '/.netlify/functions' : 'http://localhost:9000';
 
 export default {
   name: 'app',
