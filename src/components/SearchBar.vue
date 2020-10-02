@@ -1,8 +1,13 @@
 <template>
   <form @submit.prevent="search">
     <div class="form-group">
-      <input id="search" class="form-control" type="text" v-model="q"
-             placeholder="Search for a food" autofocus>
+      <input 
+        v-model="foodName"
+        id="search" 
+        class="form-control" 
+        placeholder="Search for a food" autofocus
+        type="text" 
+      >
     </div>
   </form>
 </template>
@@ -12,12 +17,12 @@ export default {
   name: 'SearchBar',
   data() {
     return {
-      q: '',
+      foodName: '',
     };
   },
   methods: {
     search() {
-      this.$emit('search', this.q);
+      this.$emit('search', this.foodName);
     },
   }
 };
@@ -30,6 +35,7 @@ export default {
 
   .form-control,
   ::placeholder {
-    font-size: 3rem;
+    font-size: 1.3rem;
+    padding: 1em 5px;
   }
 </style>
