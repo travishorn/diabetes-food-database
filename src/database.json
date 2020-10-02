@@ -440,6 +440,15 @@
       "explanation":"Lentils are a high-protein, high-fiber member of the legume famiy. An excellent natural source of folate and manganese.",
       "suggestions":"",
       "ingredients":[]
+    },
+    {
+      "name": "salmon",
+      "displayName": "Salmon",
+      "alternateNames": ["fish", "tuna", "mackerel", "sardines"],
+      "level":4,
+      "explanation":"Salmon are good for diabetes people. It rich of omega-3-fatty-acids which help lower the blood fats.",
+      "suggestions":"",
+      "ingredients":[]
     }
   ]
 }
