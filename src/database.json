@@ -449,6 +449,15 @@
       "explanation":"Salmon are good for diabetes people. It rich of omega-3-fatty-acids which help lower the blood fats.",
       "suggestions":"",
       "ingredients":[]
+    },
+    {
+      "name": "egg-white",
+      "displayName": "Egg White",
+      "alternateNames": ["albumen"],
+      "level":4,
+      "explanation":"Egg whites are a highly rich source of protein and have extremely low sugar content.",
+      "suggestions":"Boiled eggs whites are an excellent diet for a healthy breakfast.",
+      "ingredients":[] 
     }
   ]
 }
