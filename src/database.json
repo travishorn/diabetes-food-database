@@ -451,6 +451,15 @@
       "ingredients":[]
     },
     {
+      "name": "egg-white",
+      "displayName": "Egg White",
+      "alternateNames": ["albumen"],
+      "level":4,
+      "explanation":"Egg whites are a highly rich source of protein and have extremely low sugar content.",
+      "suggestions":"Boiled eggs whites are an excellent diet for a healthy breakfast.",
+      "ingredients":[] 
+    },
+    {
       "name": "biryani",
       "displayName": "Biryani",
       "alternateNames": ["biriyani", "chicken biryani", "mutton biryani", "dum biryani", "hydrabadi biryani"],
