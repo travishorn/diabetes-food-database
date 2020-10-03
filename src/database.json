@@ -449,6 +449,15 @@
       "explanation":"Salmon are good for diabetes people. It rich of omega-3-fatty-acids which help lower the blood fats.",
       "suggestions":"",
       "ingredients":[]
+    },
+    {
+      "name": "biryani",
+      "displayName": "Biryani",
+      "alternateNames": ["biriyani", "chicken biryani", "mutton biryani", "dum biryani", "hydrabadi biryani"],
+      "level":2,
+      "explanation":"Biryani is a rice dish and it often contains a lot of oil",
+      "suggestions":"Avoid eating Biryani in restaurants. Prepare it at home with brown basmati rice and without any oil if possible. Have veggies along with it.",
+      "ingredients":["chicken", "rice", "meat"]
     }
   ]
 }
