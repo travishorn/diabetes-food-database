@@ -2,3 +2,6 @@
   Functions = "dist/lambda"
   Command = "npm run generate && npm run build:lambda"
   Publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "14"
