@@ -1,6 +1,6 @@
 {
   "name": "diabetes-food-database",
-  "version": "1.0.0",
+  "version": "7.0.0",
   "private": true,
   "scripts": {
     "dev": "nuxt",
