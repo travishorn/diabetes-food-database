@@ -467,6 +467,30 @@
       "explanation":"Biryani is a rice dish and it often contains a lot of oil",
       "suggestions":"Avoid eating Biryani in restaurants. Prepare it at home with brown basmati rice and without any oil if possible. Have veggies along with it.",
       "ingredients":["chicken", "rice", "meat"]
+    },
+    {
+      "name": "chia seeds",
+      "displayName": "Chia Seeds",
+      "alternateNames": ["Chía", "Chia Fresca", "Chia Grain", "Chia Oil", "Chia Seed", "Chia Sprout", "Germe de Chia", "Graine de Chia", "Graine de Salba", "Huile de Chia", "Pinole", "S. Hispanica", "Salba", "Salba Grain", "Salvia hispanica", "Salvia Hispanica L."],
+      "level": 5,
+      "explanation": "Chia seeds contain high amount of fiber and help maintain blood glucose levels.",
+      "suggestions": "",
+      "ingredients": []
+    },
+    {
+      "name": "beans",
+      "displayName": "Beans",
+      "alternateNames": [
+        "Kidney Beans",
+        "Pinto Beans",
+        "Black Beans",
+        "Navy Beans",
+        "Adzuki Beans"
+      ],
+      "level": 5,
+      "explanation": "Beans are better for blood sugar regulation than many other starchy foods",
+      "suggestions": "",
+      "ingredients": []
     }
   ]
 }
