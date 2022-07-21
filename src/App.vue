@@ -3,7 +3,7 @@ import SiteFooter from "./components/SiteFooter.vue";
 </script>
 
 <template>
-  <div class="flex flex-col min-h-screen">
+  <div class="container mx-auto flex flex-col min-h-screen">
     <router-view />
     <SiteFooter class="mt-auto mb-5" />
   </div>
