@@ -9,7 +9,7 @@ import SearchBar from "../components/SearchBar.vue";
     <img
       class="px-20"
       alt="Diabetes Food Database"
-      src="../assets/Diabetes Food Database Wordmark.svg"
+      src="../assets/diabetes-food-database-wordmark.svg"
     />
     <div class="mx-5">
       <SearchBar />

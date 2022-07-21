@@ -11,7 +11,7 @@ const store = useStore();
     <img
       class="px-28 max-w-md mx-auto mt-5"
       alt="Diabetes Food Database"
-      src="../assets/Diabetes Food Database Wordmark.svg"
+      src="../assets/diabetes-food-database-wordmark.svg"
     />
 
     <SearchBar class="px-5" />
