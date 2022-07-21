@@ -20,5 +20,9 @@ export const useStore = defineStore("main", {
           this.error = "Something went wrong. Please try again later.";
         });
     },
+    clearQuery() {
+      this.query = "";
+      this.results = [];
+    },
   },
 });

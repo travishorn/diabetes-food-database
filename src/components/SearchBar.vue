@@ -2,14 +2,23 @@
 import { useRouter } from "vue-router";
 import { SearchIcon } from "@heroicons/vue/solid";
 import { useStore } from "../store.js";
+import { onMounted, ref } from "vue";
 
 const router = useRouter();
 const store = useStore();
+
+// Necessary so that the DOM element below can be referenced later, enabling us
+// to focus it.
+const query = ref(null);
 
 const search = async () => {
   await store.search(store.query);
   router.push(`/search?q=${store.query}`);
 };
+
+onMounted(() => {
+  query.value.focus();
+});
 </script>
 
 <template>
@@ -24,6 +33,7 @@ const search = async () => {
         class="py-2 rounded-lg pl-10 pr-3 border-gray-300 border w-full focus:outline-none"
         type="search"
         v-model="store.query"
+        ref="query"
         placeholder="Search for a food"
         autofocus
       />
