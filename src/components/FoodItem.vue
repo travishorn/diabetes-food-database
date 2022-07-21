@@ -1,9 +1,38 @@
+<script setup>
+import { computed, ref } from "vue";
+
+const props = defineProps(["food"]);
+
+const expanded = ref(false);
+
+const indicatorTranslation = computed(() => {
+  const x = (props.food.level - 1) * 100 + 50;
+  return `translate(${x} 10)`;
+});
+
+const indicatorText = computed(() => {
+  const levels = ["Avoid", "Caution", "Okay", "Good", "Great"];
+  return levels[props.food.level - 1];
+});
+
+const expand = () => {
+  expanded.value = true;
+};
+
+const toggleExpanded = (e) => {
+  expanded.value = !expanded.value;
+  e.stopPropagation();
+};
+</script>
+
 <template>
-  <div class="card" @click="expand">
-    <div class="card-body">
-      <h2 @click="toggleExpanded">{{ food.displayName }}</h2>
-      
-      <div class="indicator">
+  <div @click="expand">
+    <div class="flex flex-col gap-3">
+      <h2 class="text-xl cursor-pointer" @click="toggleExpanded">
+        {{ props.food.displayName }}
+      </h2>
+
+      <div class="max-w-md">
         <svg viewBox="0 0 500 40">
           <defs>
             <linearGradient id="redGreen">
@@ -23,71 +52,20 @@
         </svg>
       </div>
 
-      <div v-if="expanded && food.explanation">
-        <h3>Explanation</h3>
-        <p>{{ food.explanation }}</p>
+      <div v-if="expanded && props.food.explanation">
+        <h3 class="font-bold">Explanation</h3>
+        <p>{{ props.food.explanation }}</p>
       </div>
-      <div v-if="expanded && food.suggestions">
-        <h3>Suggestions</h3>
-        <p>{{ food.suggestions }}</p>
+      <div v-if="expanded && props.food.suggestions">
+        <h3 class="font-bold">Suggestions</h3>
+        <p>{{ props.food.suggestions }}</p>
       </div>
+    </div>
+    <div
+      class="italic text-gray-500 text-center md:text-left text-sm mt-2 cursor-pointer"
+      v-if="!expanded"
+    >
+      more info
     </div>
   </div>
 </template>
-
-<script>
-export default {
-  name: 'FoodItem',
-  props: ['food'],
-  data() {
-    return {
-      expanded: false,
-    };
-  },
-  computed: {
-    indicatorTranslation() {
-      const x = (this.food.level - 1) * 100 + 50;
-      return `translate(${x} 10)`;
-    },
-    indicatorText() {
-      const levels = ['Avoid', 'Caution', 'Okay', 'Good', 'Great'];
-      return levels[this.food.level - 1];
-    },
-  },
-  methods: {
-    expand() {
-      this.expanded = true;
-    },
-    toggleExpanded(e) {
-      this.expanded = !this.expanded;
-      e.stopPropagation();
-    },
-  },
-};
-</script>
-
-<style scoped>
-  h2 {
-    padding-bottom: 15px;
-    font-size: 1.2rem;
-    font-weight: bold;
-  }
-
-  h3 {
-    font-size: 1.1rem;
-    font-weight: bold;
-  }
-
-  .indicator {
-    padding: 1em;
-  }
-  
-  .card { cursor: pointer; }
-
-  .card p,
-  .card h3 { cursor: text; }
-
-  .card-body {
-    padding: 0.5rem 1rem 0.25rem 1rem;
-  }
-</style>

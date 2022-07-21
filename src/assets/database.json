@@ -1,0 +1,499 @@
+[
+  {
+    "name": "sugar",
+    "displayName": "Sugar",
+    "alternateNames": ["glucose"],
+    "level": 1,
+    "explanation": "Sugar is not easily processed by a diabetic person's body. Too much sugar can cause high blood sugar (hyperglycemia) which can cause increased thirst, frequent urination, fatigue, nausea and vomiting, shortness of breath, stomach pain, fruity breath odor, a very dry mouth, rapid heartbeat, and diabetic coma.",
+    "suggestions": "Sugar is important for bodily function, but sugar intake should be carefully monitored to avoid high blood sugar (hyperglycemia) and low blood sugar (hypoglycemia)."
+  },
+  {
+    "name": "sport drinks",
+    "displayName": "Sport drinks",
+    "alternateNames": ["gatorade"],
+    "level": 1,
+    "explanation": "Sports drinks like Gatorade may be helpful for highly active, healthy people, but people with diabetes should steer clear—even if they hit the gym on the reg. They can be an unnecessary source of calories, added sugars, and sodium, which are all things people with diabetes should avoid.",
+    "suggestions": "Stay hydrated during your workout with cold H2O—it really is your best bet."
+  },
+  {
+    "name": "nacho",
+    "displayName": "Nachos",
+    "alternateNames": [],
+    "level": 1,
+    "explanation": "Nachos are high in calories, carbohydrates, and fat.",
+    "suggestions": "Use reduced-fat cheese and baked tortilla chips. Eat as a meal, not an appetizer."
+  },
+  {
+    "name": "coffee",
+    "displayName": "Coffee",
+    "alternateNames": ["starbucks"],
+    "level": 3,
+    "explanation": "Coffee drinks at places like Starbucks should be avoided as they are high in calories, carbohydrates, and fat. Coffee can be made in a healthier way, though.",
+    "suggestions": "Try a cup of coffee with a little skim milk."
+  },
+  {
+    "name": "baked good",
+    "displayName": "Baked Goods",
+    "alternateNames": [
+      "donut",
+      "doughnut",
+      "muffin",
+      "pastry",
+      "cake",
+      "pie",
+      "cinnamon roll",
+      "cookie"
+    ],
+    "level": 1,
+    "explanation": "Baked goods are high in calories, carbohydrates, trans fat, and sugar.",
+    "suggestions": "Some baked goods can be made healthier by using rolled oats, cornmeal, whole grain, or wheat flour."
+  },
+  {
+    "name": "battered fish",
+    "displayName": "Battered Fish",
+    "alternateNames": ["deep fried fish", "long john silvers", "captain ds"],
+    "level": 1,
+    "explanation": "Battered fish is high in calories, carbohydrates, and fat. It has too much starch.",
+    "suggestions": ""
+  },
+  {
+    "name": "canned vegetables",
+    "displayName": "Canned Vegetables",
+    "alternateNames": [],
+    "level": 4,
+    "explanation": "Canned vegetables are generally okay but can be high in sodium.",
+    "suggestions": "Opt for raw or frozen vegetables instead."
+  },
+  {
+    "name": "biscuit and gravy",
+    "displayName": "Biscuits and Gravy",
+    "alternateNames": [],
+    "level": 1,
+    "explanation": "Biscuits and gravy are high in calories, saturated fat, and sodium.",
+    "suggestions": ""
+  },
+  {
+    "name": "cereal",
+    "displayName": "Cereal",
+    "alternateNames": ["breakfast cereal"],
+    "level": 3,
+    "explanation": "",
+    "suggestions": "Make sure it's made with whole grain and watch for added sugar."
+  },
+  {
+    "name": "chinese",
+    "displayName": "Chinese Food",
+    "alternateNames": ["orange chicken", "white rice", "delivery chinese"],
+    "level": 2,
+    "explanation": "Many Chinese dishes are deep-fried and contain rice. These are high in calories and carbohydrates.",
+    "suggestions": "Avoid deep-fried entrees and rice. Dishes with no breading and a high vegetable proportion are okay."
+  },
+  {
+    "name": "corn",
+    "displayName": "Corn",
+    "alternateNames": ["corn on the cob"],
+    "level": 1,
+    "explanation": "While corn is a vegetable, it is very starchy and high in carbohydrates.",
+    "suggestions": "Try other vegetables besides corn and potatoes."
+  },
+  {
+    "name": "french fry",
+    "displayName": "French Fries",
+    "alternateNames": ["fry"],
+    "level": 1,
+    "explanation": "French fries are high in calories, saturated fat, and sodium.",
+    "suggestions": ""
+  },
+  {
+    "name": "fried chicken",
+    "displayName": "Fried Chicken",
+    "alternateNames": ["chicken", "kfc", "popeye", "church"],
+    "level": 1,
+    "explanation": "Fried chicken is high in calories, carbohydrates, and fat.",
+    "suggestions": "Try grilled chicken instead of fried."
+  },
+  {
+    "name": "frozen meal",
+    "displayName": "Frozen Meals",
+    "alternateNames": ["tv dinner", "marie callender", "pot pie"],
+    "level": 1,
+    "explanation": "Frozen meals are often high in fat and sodium. Pot pies are a huge offender.",
+    "suggestions": "Meals cooked from scratch can be made much healthier than pre-packaged frozen meals."
+  },
+  {
+    "name": "fruit juice",
+    "displayName": "Fruit Juice",
+    "alternateNames": ["juice", "orange juice", "apple juice", "grape juice"],
+    "level": 2,
+    "explanation": "Many packaged fruit juices are high in calories and sugar.",
+    "suggestions": "Read the label. Be especially aware of service size. You can squeeze your own juice for a healthier option."
+  },
+  {
+    "name": "hamburger",
+    "displayName": "Hamburgers",
+    "alternateNames": ["cheeseburger", "burger"],
+    "level": 1,
+    "explanation": "Hamburgers are extremely high in saturated fat. Especially burgers from restaurants.",
+    "suggestions": "At restaurants, try to find healthier options by looking at any nutritional information they offer."
+  },
+  {
+    "name": "lettuce",
+    "displayName": "Lettuce",
+    "alternateNames": ["iceberg", "romaine"],
+    "level": 5,
+    "explanation": "",
+    "suggestions": "Most lettuce is great for you. Perfer other types over iceberg, as it's low in nutrients."
+  },
+  {
+    "name": "lunch meat",
+    "displayName": "Lunch Meat",
+    "alternateNames": ["deli meat", "sliced meat"],
+    "level": 1,
+    "explanation": "Pre-packed lunch meat is high in sodium.",
+    "suggestions": "Meat sliced at the deli department can be okay, but roasting and slicing your own meat at home with no added sodium is the best."
+  },
+  {
+    "name": "milkshake",
+    "displayName": "Milkshake",
+    "alternateNames": ["shake", "malt", "milk shake"],
+    "level": 1,
+    "explanation": "Milkshakes are high in calories, trans fat, and sugar.",
+    "suggestions": ""
+  },
+  {
+    "name": "pickle",
+    "displayName": "Pickles",
+    "alternateNames": ["dill pickle"],
+    "level": 3,
+    "explanation": "Most pickles are very high in sodium.",
+    "suggestions": ""
+  },
+  {
+    "name": "Pizza",
+    "displayName": "Pizza",
+    "alternateNames": [
+      "frozen pizza",
+      "delivery pizza",
+      "pizza hut",
+      "dominos",
+      "papa johns"
+    ],
+    "level": 1,
+    "explanation": "Pizza is often high in calories, carbohydrates, fat, and sodium.",
+    "suggestions": "If you must eat pizza, opt for vegetable toppings. Pay close attention to the nutritional content and the serving size."
+  },
+  {
+    "name": "potato",
+    "displayName": "Potatoes",
+    "alternateNames": [],
+    "level": 1,
+    "explanation": "Potatoes are high in carbohydrates.",
+    "suggestions": "Try other vegetables besides potatoes and corn."
+  },
+  {
+    "name": "processed grain",
+    "displayName": "Processed Grains",
+    "alternateNames": ["white rice", "white flour", "white bread"],
+    "level": 1,
+    "explanation": "Processed grains are high in carbohydrates.",
+    "suggestions": "Some items that are typically made with processed grains can be made healthier by using rolled oats, cornmeal, whole grain, or wheat flour."
+  },
+  {
+    "name": "sauerkraut",
+    "displayName": "Sauerkraut",
+    "alternateNames": [],
+    "level": 3,
+    "explanation": "Sauerkraut is high in sodium.",
+    "suggestions": ""
+  },
+  {
+    "name": "smoothie",
+    "displayName": "Smoothies",
+    "alternateNames": ["smoothie king"],
+    "level": 2,
+    "explanation": "Many made to order smoothies and smoothie mixes contain hidden sugars.",
+    "suggestions": "Make your own smoothies with fresh fruit and no added sugar."
+  },
+  {
+    "name": "Soda",
+    "displayName": "Soda",
+    "alternateNames": ["pop", "soft drink"],
+    "level": 1,
+    "explanation": "Sode is very high in sugar.",
+    "suggestions": "Try sparkling water with fruit. Diet soda can also be okay."
+  },
+  {
+    "name": "sweet potato",
+    "displayName": "Sweet Potatoes",
+    "alternateNames": ["yam"],
+    "level": 5,
+    "explanation": "",
+    "suggestions": "Pay attention to serving size, added sugar, and added butter."
+  },
+  {
+    "name": "tortilla",
+    "displayName": "Tortillas",
+    "alternateNames": [],
+    "level": 3,
+    "explanation": "",
+    "suggestions": "Tortillas made with whole grain are much healthier than with other processed grains."
+  },
+  {
+    "name": "vegetable",
+    "displayName": "Vegetables",
+    "alternateNames": [
+      "veg",
+      "veggies",
+      "carrots",
+      "pea",
+      "green bean",
+      "kale",
+      "spinach",
+      "arugula",
+      "pepper",
+      "onion",
+      "eggplant",
+      "celery"
+    ],
+    "level": 5,
+    "explanation": "",
+    "suggestions": "Try vegetables raw, steamed, roasted, or grilled. Avoid added butter, cheese, or sauce."
+  },
+  {
+    "name": "whole grain",
+    "displayName": "Whole Grains",
+    "alternateNames": ["brown rice", "oatmeal", "quinoa", "millet", "amaranth"],
+    "level": 5,
+    "explanation": "",
+    "suggestions": "Watch out for added sugar."
+  },
+  {
+    "name": "grilled chicken",
+    "displayName": "Grilled Chicken",
+    "alternateNames": ["chicken"],
+    "level": 4,
+    "explanation": "",
+    "suggestions": "Grilled is much healthier than frying chicken."
+  },
+  {
+    "name": "sushi",
+    "displayName": "Sushi",
+    "alternateNames": ["sashimi", "california roll"],
+    "level": 2,
+    "explanation": "Most sushi dishes contain a lot of short-grain sticky white rice, which is very high in carbohydrates and should be avoided.",
+    "suggestions": "Try rolls made with quinoa, brown rice, lean proteins like fish, and healthy fats like avocado. Avoid deep-fried rolls. Opt for low-sodium soy sauce and watch out for added sugar."
+  },
+  {
+    "name": "taco bell",
+    "displayName": "Taco Bell",
+    "alternateNames": ["fast food", "mexican", "taco", "burrito", "quesadilla"],
+    "level": 1,
+    "explanation": "Fast food restaurants very rarely offer healthy options. However, some are better than others.",
+    "suggestions": "Opt for a black bean burrito, soft chicken tacos, or a fresco grilled steak soft taco."
+  },
+  {
+    "name": "wendy",
+    "displayName": "Wendy's",
+    "alternateNames": ["fast food", "burger"],
+    "level": 1,
+    "explanation": "Fast food restaurants very rarely offer healthy options. However, some are better than others.",
+    "suggestions": "Try a grilled chicken sandwich, power mediterranian chicken salad, or apple pecan chicken salad."
+  },
+  {
+    "name": "burger king",
+    "displayName": "Burger King",
+    "alternateNames": ["fast food", "burger"],
+    "level": 1,
+    "explanation": "Fast food restaurants very rarely offer healthy options. However, some are better than others.",
+    "suggestions": "A basic burger with no mayonnaise or a salad are better options."
+  },
+  {
+    "name": "subway",
+    "displayName": "Subway",
+    "alternateNames": ["fast food", "sandwich"],
+    "level": 1,
+    "explanation": "Fast food restaurants very rarely offer healthy options. However, some are better than others.",
+    "suggestions": "Opt for a 6 inch sandwich on honey oat or 9 grain bread, veggie delight, oven roasted/rotisserie chicken, or roast beef."
+  },
+  {
+    "name": "arby",
+    "displayName": "Arby's",
+    "alternateNames": ["fast food", "roast beef"],
+    "level": 1,
+    "explanation": "Fast food restaurants very rarely offer healthy options. However, some are better than others.",
+    "suggestions": "Try a classic roast beef or turkey gyro pita wrap."
+  },
+  {
+    "name": "mcdonald",
+    "displayName": "McDonald's",
+    "alternateNames": ["fast food", "burger"],
+    "level": 1,
+    "explanation": "Fast food restaurants very rarely offer healthy options. However, some are better than others.",
+    "suggestions": "A basic burger, side salad with baslamic dressing, apple slices, and unsweetened tea are some healtheir options."
+  },
+  {
+    "name": "kfc",
+    "displayName": "KFC",
+    "alternateNames": ["fast food", "chicken", "kentucky", "fried"],
+    "level": 1,
+    "explanation": "Fast food restaurants very rarely offer healthy options. However, some are better than others.",
+    "suggestions": "Opt for grilled or baked chicken and sweet kernel corn over other options."
+  },
+  {
+    "name": "chipotle",
+    "displayName": "Chipotle",
+    "alternateNames": ["fast food", "mexican", "taco", "burrito"],
+    "level": 1,
+    "explanation": "Fast food restaurants very rarely offer healthy options. However, some are better than others.",
+    "suggestions": "Try a vegetarian or chicken bowl, crispy tacos with chicken, or brown rice."
+  },
+  {
+    "name": "chick fil a",
+    "displayName": "Chick-fil-A",
+    "alternateNames": ["fast food", "chicken"],
+    "level": 1,
+    "explanation": "Fast food restaurants very rarely offer healthy options. However, some are better than others.",
+    "suggestions": "A grilled chicken sandwich, small fruit cup, and unsweetened iced tea are healtheir options."
+  },
+  {
+    "name": "jimmy john",
+    "displayName": "Jimmy John's",
+    "alternateNames": ["fast food", "sandwich"],
+    "level": 1,
+    "explanation": "Fast food restaurants very rarely offer healthy options. However, some are better than others.",
+    "suggestions": "Try the #1, Pepe un-wich style with no mayonnaise and thinny chips."
+  },
+  {
+    "name": "panera",
+    "displayName": "Panera Bread Co.",
+    "alternateNames": [
+      "fast food",
+      "bread",
+      "soup",
+      "bagel",
+      "sandwich",
+      "st. louis",
+      "saint"
+    ],
+    "level": 1,
+    "explanation": "Fast food restaurants very rarely offer healthy options. However, some are better than others.",
+    "suggestions": "Opt for a you pick two with half-smoked turkey breast on honey wheat loaf with low-fat garden vegetable with pesto soup, and acai berry iced green tea."
+  },
+  {
+    "name": "popeye",
+    "displayName": "Popeye's",
+    "alternateNames": ["fast food", "chicken", "fried"],
+    "level": 1,
+    "explanation": "Fast food restaurants very rarely offer healthy options. However, some are better than others.",
+    "suggestions": "The six-piece chicken tenders, regular green beans, and applesauce are healthier options."
+  },
+  {
+    "name": "qdoba",
+    "displayName": "Qdoba",
+    "alternateNames": ["fast food", "mexican", "taco", "burrito"],
+    "level": 1,
+    "explanation": "Fast food restaurants very rarely offer healthy options. However, some are better than others.",
+    "suggestions": "Try a naked burrito, pulled pork, pinto beans, lettuce, fajita vegetables, and mango salsa."
+  },
+  {
+    "name": "starbuck",
+    "displayName": "Starbucks",
+    "alternateNames": ["fast food", "coffee"],
+    "level": 1,
+    "explanation": "Fast food restaurants very rarely offer healthy options. However, some are better than others.",
+    "suggestions": "Opt for a spinach and feta breakfast wrap. Black coffee is healthier than all of the sugary drinks they offer."
+  },
+  {
+    "name": "panda express",
+    "displayName": "Panda Express",
+    "alternateNames": ["fast food", "chinese"],
+    "level": 1,
+    "explanation": "Fast food restaurants very rarely offer healthy options. However, some are better than others.",
+    "suggestions": "Broccoli beef (no rice) and veggie spring rolls are healthier options."
+  },
+  {
+    "name": "carrots",
+    "displayName": "Carrots",
+    "alternateNames": ["vegetable", "healthy"],
+    "level": 1,
+    "explanation": "Carrots are full of water and vitamins are a very healthy options.They help with eyes and stomach issues.",
+    "suggestions": "Apples and Carrots mix or soups with carrots in are very healthy."
+  },
+  {
+    "name": "lentil",
+    "displayName": "Lentil",
+    "alternateNames": ["lentil soup", "lentils"],
+    "level": 4,
+    "explanation": "Lentils are a high-protein, high-fiber member of the legume famiy. An excellent natural source of folate and manganese.",
+    "suggestions": ""
+  },
+  {
+    "name": "salmon",
+    "displayName": "Salmon",
+    "alternateNames": ["fish", "tuna", "mackerel", "sardines"],
+    "level": 4,
+    "explanation": "Salmon are good for diabetes people. It rich of omega-3-fatty-acids which help lower the blood fats.",
+    "suggestions": ""
+  },
+  {
+    "name": "egg-white",
+    "displayName": "Egg White",
+    "alternateNames": ["albumen"],
+    "level": 4,
+    "explanation": "Egg whites are a highly rich source of protein and have extremely low sugar content.",
+    "suggestions": "Boiled eggs whites are an excellent diet for a healthy breakfast."
+  },
+  {
+    "name": "biryani",
+    "displayName": "Biryani",
+    "alternateNames": [
+      "biriyani",
+      "chicken biryani",
+      "mutton biryani",
+      "dum biryani",
+      "hydrabadi biryani"
+    ],
+    "level": 2,
+    "explanation": "Biryani is a rice dish and it often contains a lot of oil",
+    "suggestions": "Avoid eating Biryani in restaurants. Prepare it at home with brown basmati rice and without any oil if possible. Have veggies along with it."
+  },
+  {
+    "name": "chia seeds",
+    "displayName": "Chia Seeds",
+    "alternateNames": [
+      "Chía",
+      "Chia Fresca",
+      "Chia Grain",
+      "Chia Oil",
+      "Chia Seed",
+      "Chia Sprout",
+      "Germe de Chia",
+      "Graine de Chia",
+      "Graine de Salba",
+      "Huile de Chia",
+      "Pinole",
+      "S. Hispanica",
+      "Salba",
+      "Salba Grain",
+      "Salvia hispanica",
+      "Salvia Hispanica L."
+    ],
+    "level": 5,
+    "explanation": "Chia seeds contain high amount of fiber and help maintain blood glucose levels.",
+    "suggestions": ""
+  },
+  {
+    "name": "beans",
+    "displayName": "Beans",
+    "alternateNames": [
+      "Kidney Beans",
+      "Pinto Beans",
+      "Black Beans",
+      "Navy Beans",
+      "Adzuki Beans"
+    ],
+    "level": 5,
+    "explanation": "Beans are better for blood sugar regulation than many other starchy foods",
+    "suggestions": ""
+  }
+]

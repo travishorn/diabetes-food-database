@@ -1,41 +1,32 @@
-<template>
-  <form @submit.prevent="search">
-    <div class="form-group">
-      <input 
-        v-model="foodName"
-        id="search" 
-        class="form-control" 
-        placeholder="Search for a food" autofocus
-        type="text" 
-      >
-    </div>
-  </form>
-</template>
+<script setup>
+import { useRouter } from "vue-router";
+import { SearchIcon } from "@heroicons/vue/solid";
+import { useStore } from "../store.js";
 
-<script>
-export default {
-  name: 'SearchBar',
-  data() {
-    return {
-      foodName: '',
-    };
-  },
-  methods: {
-    search() {
-      this.$emit('search', this.foodName);
-    },
-  }
+const router = useRouter();
+const store = useStore();
+
+const search = async () => {
+  await store.search(store.query);
+  router.push(`/search?q=${store.query}`);
 };
 </script>
 
-<style scoped>
-  .bmd-label-static {
-    color: #555;
-  }
-
-  .form-control,
-  ::placeholder {
-    font-size: 1.3rem;
-    padding: 1em 5px;
-  }
-</style>
+<template>
+  <form @submit.prevent="search">
+    <div class="relative">
+      <span class="absolute inset-y-0 left-0 flex items-center pl-2">
+        <button class="p-1 focus:outline-none">
+          <SearchIcon class="h-5 w-5 text-gray-400" />
+        </button>
+      </span>
+      <input
+        class="py-2 rounded-lg pl-10 pr-3 border-gray-300 border w-full focus:outline-none"
+        type="search"
+        v-model="store.query"
+        placeholder="Search for a food"
+        autofocus
+      />
+    </div>
+  </form>
+</template>

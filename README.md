@@ -5,63 +5,44 @@ https://dfdb.netlify.com/ and search for a food item.
 
 ## Contributing
 
-The infrastructure for this app is there, but the database itself is extremely lacking. **Pull
-requests are welcome!** Please look at modifying `src/database.json`.
+The infrastructure for this app is there, but the database itself is extremely
+lacking. **Pull requests are welcome!** Please look at modifying
+`src/assets/database.json`.
 
 When adding a new food, please include the following properties:
 
-- **name** - The name of the food. Will be used for searching. Must be unique, singular (smoothie
-instead smoothies) and all lowercase (carrot instead of Carrot).
-- **displayName** - A prettier name of the food. If the name is sugar, the displayName might be
-Sugar (with capitalization).
-- **alternateNames** - An array of names people might also use when searching for this food. Should
-also be singular and all lowercase.
+- **name** - The name of the food. Will be used for searching. Must be unique,
+  singular (smoothie instead smoothies) and all lowercase (carrot instead of
+  Carrot).
+- **displayName** - A prettier name of the food. If the name is sugar, the
+  displayName might be Sugar (with capitalization).
+- **alternateNames** - An array of names people might also use when searching
+  for this food. Should also be singular and all lowercase.
 - **level** - A number from 1 to 5.
   - 1 = Avoid - Diabetic people should stay away from this food.
-  - 2 = Caution - This food can be eaten in moderation or under certain conditions.
+  - 2 = Caution - This food can be eaten in moderation or under certain
+    conditions.
   - 3 = Okay - Neutral. No significant positive or negative health effects.
   - 4 = Good - Food that is good for a diabetic person to eat.
   - 5 = Great - Foods at this level are among the healthiest options.
 - **explanation** - A reason why this food is or is not healthy.
-- **suggestions** - Actions to take regarding this food. Alternatives to this food if it is
-unhealthy.
-- **ingredients** - An array of items that make up this food. Items in this array must match the
-name of another food in the database.
-
-### Running the application locally for development
-
-Clone the repository and install dependencies
-
-```
-> git clone https://github.com/travishorn/diabetes-food-database.git
-> cd diabetes-food-database
-> npm install
-```
-
-Start the backend lambda service and serve the client
-
-```
-> npm run start:lambda
-> npm run start:vue
-```
-
-The user interface will be available at http://localhost:8080/
+- **suggestions** - Actions to take regarding this food. Alternatives to this
+  food if it is unhealthy.
 
 ## Built with
 
-- [Axios](https://github.com/axios/axios) - Querying the database from the client
 - [Fuse](http://fusejs.io/) - Fuzzy text search
-- [Icons8](https://icons8.com) - Icon/favico
+- [Icons8](https://icons8.com) - Freepik - Flaticon
 - [Netlify](https://netlify.com) - Hosting the client and the database API
-- [Pluralize](https://github.com/blakeembrey/pluralize) - Helping normalize search queries
+- [Pluralize](https://github.com/blakeembrey/pluralize) - Helping normalize
+  search queries
 - [Vue](https://vuejs.org) - User interface
-- [webpack-auto-inject-version](https://github.com/radswiat/webpack-auto-inject-version) - Place version at bottom of client
 
 ## License
 
 MIT License
 
-Copyright (c) 2018 Travis Horn
+Copyright (c) 2022 Travis Horn
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

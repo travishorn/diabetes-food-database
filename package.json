@@ -1,19 +1,24 @@
 {
   "name": "diabetes-food-database",
-  "version": "6.2.1",
+  "version": "7.0.0",
   "description": "Food information for people with diabetes.",
-  "main": "src/main.js",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start:lambda": "netlify-lambda serve src/lambda",
-    "build:lambda": "netlify-lambda build src/lambda",
-    "start:vue": "vue-cli-service serve",
-    "build:vue": "vue-cli-service build"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/travishorn/diabetes-food-database.git"
   },
+  "author": "Travis Horn (https://travishorn.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/travishorn/diabetes-food-database/issues"
+  },
+  "homepage": "https://github.com/travishorn/diabetes-food-database#readme",
   "keywords": [
     "diabetes",
     "diabetic",
@@ -24,21 +29,19 @@
     "food safety",
     "medical"
   ],
-  "author": "Travis Horn (https://travishorn.com)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/travishorn/diabetes-food-database/issues"
-  },
-  "homepage": "https://github.com/travishorn/diabetes-food-database#readme",
   "dependencies": {
-    "@vue/cli-service": "^3.2.0",
-    "axios": "^0.21.2",
-    "fuse.js": "^3.3.0",
-    "netlify-lambda": "^1.1.0",
-    "pluralize": "^7.0.0",
-    "vue": "^2.5.18",
-    "vue-template-compiler": "^2.5.18",
-    "webpack-auto-inject-version": "^1.2.2"
+    "@heroicons/vue": "^1.0.6",
+    "fuse.js": "^6.6.2",
+    "pinia": "^2.0.16",
+    "pluralize": "^8.0.0",
+    "vue": "^3.2.37",
+    "vue-router": "^4.1.2"
   },
-  "postcss": {}
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.0",
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.6",
+    "vite": "^3.0.0"
+  }
 }

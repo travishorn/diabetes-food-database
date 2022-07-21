@@ -1,13 +1,9 @@
-import Vue from 'vue';
-import App from './App.vue';
+import { createApp } from "vue";
+import { createPinia } from "pinia";
+import router from "./router";
+import App from "./App.vue";
+import "./index.css";
 
-navigator.serviceWorker.getRegistrations()
-  .then((registrations) => {
-    registrations.forEach((registration) => {
-      registration.unregister();
-    });
-  });
+const pinia = createPinia();
 
-new Vue({
-  render: h => h(App),
-}).$mount('#app');
+createApp(App).use(router).use(pinia).mount("#app");
