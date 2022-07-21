@@ -8,11 +8,13 @@ const store = useStore();
 
 <template>
   <div class="flex flex-col gap-5">
-    <img
-      class="px-28 max-w-md mx-auto mt-5"
-      alt="Diabetes Food Database"
-      src="../assets/diabetes-food-database-wordmark.svg"
-    />
+    <router-link to="/">
+      <img
+        class="px-28 max-w-md mx-auto mt-5"
+        alt="Diabetes Food Database"
+        src="../assets/diabetes-food-database-wordmark.svg"
+      />
+    </router-link>
 
     <SearchBar class="px-5" />
 
