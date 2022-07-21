@@ -31,12 +31,14 @@ When adding a new food, please include the following properties:
 
 ## Built with
 
+- [Freepik - Flaticon](https://www.flaticon.com) - Blood drop icon
 - [Fuse](http://fusejs.io/) - Fuzzy text search
-- [Icons8](https://icons8.com) - Freepik - Flaticon
+- [Hero Icons](https://heroicons.com/) - Search icon
 - [Netlify](https://netlify.com) - Hosting the client and the database API
 - [Pluralize](https://github.com/blakeembrey/pluralize) - Helping normalize
   search queries
-- [Vue](https://vuejs.org) - User interface
+- [Tailwind CSS](https://tailwindcss.com/) - Styling
+- [Vue, Vue Router, and Pinia](https://vuejs.org) - User interface
 
 ## License
 
