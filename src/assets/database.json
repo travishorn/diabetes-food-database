@@ -495,5 +495,21 @@
     "level": 5,
     "explanation": "Beans are better for blood sugar regulation than many other starchy foods",
     "suggestions": ""
+  },
+  {
+    "name": "whole eggs",
+    "displayName": "Whole Eggs",
+    "alternateNames": ["eggs", "egg"],
+    "level": 5,
+    "explanation": "Whole eggs are packed with nutrients including protein and healthy fat",
+    "suggestions": "Fried in butter, boiled, poached, scrambled"
+  },
+  {
+    "name": "bacon",
+    "displayName": "Bacon",
+    "alternateNames": ["pork"],
+    "level": 5,
+    "explanation": "Bacon contains protein and healthy animal fat",
+    "suggestions": "Eat by itself, with eggs, or add into your fav low carb dish"
   }
 ]
