@@ -1,6 +1,7 @@
 {
 	"name": "diabetes-food-database",
-	"version": "0.0.1",
+	"version": "8.0.0",
+	"description": "Food information for people with diabetes.",
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
@@ -11,6 +12,26 @@
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write ."
 	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/travishorn/diabetes-food-database.git"
+	},
+	"author": "Travis Horn (https://travishorn.com)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/travishorn/diabetes-food-database/issues"
+	},
+	"homepage": "https://github.com/travishorn/diabetes-food-database#readme",
+	"keywords": [
+		"diabetes",
+		"diabetic",
+		"food",
+		"database",
+		"data",
+		"information",
+		"food safety",
+		"medical"
+	],
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/kit": "^1.5.0",
@@ -27,5 +48,9 @@
 		"typescript": "^5.0.0",
 		"vite": "^4.3.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@sveltejs/adapter-vercel": "^3.0.1",
+		"@travishorn/heroicons-svelte": "^1.0.0"
+	}
 }

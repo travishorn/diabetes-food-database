@@ -6,6 +6,13 @@ declare global {
 		// interface Locals {}
 		// interface PageData {}
 		// interface Platform {}
+
+		interface Food {
+			displayName: string;
+			level: number;
+			explanation?: string;
+			suggestions?: string;
+		}
 	}
 }
 
